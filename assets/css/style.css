@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+/* Css variables */
+:root {
+    --primary-font : "raleway", sans-serif;
+    --secondary-font : "tangerine", sans-serif;
+}
+
+/* General styles */
+h1 {
+    font-family: var(--secondary-font)
+}
+
+body {
+    font-family: var(--primary-font)
+}
