@@ -25,6 +25,19 @@ h2 {
     font-size: 40px;
 }
 
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar a {
+    color: var(--secondary-color);
+}
+
+#navbar a:hover {
+    color: white;
+}
+
 /* Header */
 #header
 h1,
