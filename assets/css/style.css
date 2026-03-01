@@ -11,10 +11,12 @@ body {
     font-family: var(--primary-font);
 }
 
-h1 {
+h1, h2 {
     font-family: var(--secondary-font);
 }
 
 .sub-heading {
     font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 40px;
 }
