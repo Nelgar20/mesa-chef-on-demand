@@ -4,6 +4,8 @@
 :root {
     --primary-font : "raleway", sans-serif;
     --secondary-font : "tangerine", sans-serif;
+    --primary-color : #201109; /* Dark Brown */
+    --secondary-color : #ffad1f; /* Golden Orange*/
 }
 
 /* General styles */
@@ -17,6 +19,16 @@ h1, h2 {
 
 .sub-heading {
     font-family: var(--secondary-font);
+    color: var(--secondary-color);
     font-weight: bold;
     font-size: 40px;
+}
+
+/* Services section */
+#services .card-body  {
+    background-color: var(--primary-color);
+}
+
+#services .card-text {
+    color: white;
 }
