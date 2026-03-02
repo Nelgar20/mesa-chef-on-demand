@@ -38,6 +38,10 @@ h2 {
     color: white;
 }
 
+#navbar .logo {
+    width: 50px;
+}
+
 /* Header */
 #header
 h1,
