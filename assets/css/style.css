@@ -18,6 +18,10 @@ h2 {
     font-family: var(--secondary-font);
 }
 
+h2 {
+    color: var(--primary-color);
+}
+
 .sub-heading {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
@@ -43,12 +47,6 @@ h2 {
 }
 
 /* Header */
-#header
-h1,
-p {
-    color: white;
-}
-
 #header h1 {
     color: var(--secondary-color);
 }
@@ -57,6 +55,16 @@ p {
     background-color: var(--primary-color);
 }
 
+#header .sub-heading {
+    color: var(--secondary-color);
+}
+
+#header p {
+    color: white;
+}
+
+
+
 /* Services section */
 #services .card-body  {
     background-color: var(--primary-color);
@@ -64,4 +72,10 @@ p {
 
 #services .card-text {
     color: white;
+}
+
+/* Contact section */
+
+#contact .middle {
+    margin-top: 25%;
 }
