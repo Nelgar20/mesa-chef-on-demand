@@ -79,3 +79,20 @@ h2 {
 #contact .middle {
     margin-top: 25%;
 }
+
+/* Footer/Socials */
+
+#socials div {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    background-color: var(--primary-color);
+}
+
+#socials i {
+    color: var(--secondary-color);
+}
+
+#socials i:hover {
+    color: white;
+}
