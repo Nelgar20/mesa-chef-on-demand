@@ -29,6 +29,12 @@ h2 {
     font-size: 40px;
 }
 
+.custom-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
