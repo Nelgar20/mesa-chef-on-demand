@@ -1,92 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
 
 /* Css variables */
 :root {
-    --primary-font : "raleway", sans-serif;
-    --secondary-font : "tangerine", sans-serif;
-    --primary-color : #201109; /* Dark Brown */
-    --secondary-color : #ffad1f; /* Golden Orange*/
+  --primary-font: "raleway", sans-serif;
+  --secondary-font: "tangerine", sans-serif;
+  --primary-color: #201109; /* Dark Brown */
+  --secondary-color: #ffad1f; /* Golden Orange*/
 }
 
 /* General styles */
 body {
-    font-family: var(--primary-font);
-    background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
 }
 
-h1, 
+h1,
 h2 {
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 .sub-heading {
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
-    font-weight: bold;
-    font-size: 40px;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .custom-button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border: 3px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
 }
 
 /* Navbar */
 #navbar {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #navbar a {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 #navbar a:hover {
-    color: white;
+  color: white;
 }
 
 #navbar .logo {
-    width: 50px;
+  width: 50px;
 }
 
 /* Header */
 #header h1 {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 #header .bg {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 /* Services section */
-#services .card-body  {
-    background-color: var(--primary-color);
+#services .card-body {
+  background-color: var(--primary-color);
 }
 
 /* Contact section */
 
-#contact .middle {
-    margin-top: 25%;
-}
-
 /* Footer/Socials */
 
 #socials div {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 3rem;
-    background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  background-color: var(--primary-color);
 }
 
 #socials i {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 #socials i:hover {
-    color: white;
+  color: white;
+}
+
+/* Media queries */
+
+/* Large device (992px and up) */
+@media screen and (min-width: 992px) {
+  #contact .middle {
+    margin-top: 25%;
+  }
+  #contact .phone-pl {
+    padding-left: 150px;
+  }
 }
