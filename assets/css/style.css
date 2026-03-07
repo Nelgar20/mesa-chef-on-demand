@@ -37,6 +37,10 @@ p {
   border: 3px solid var(--secondary-color);
 }
 
+.text-lg {
+   font-size: x-large; 
+}
+
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
