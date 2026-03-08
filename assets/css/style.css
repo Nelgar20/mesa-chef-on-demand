@@ -73,12 +73,12 @@ label {
   background-color: var(--primary-color);
 }
 
-/* Contact section */
-
 /* Menu section */
-#menu li {
+#starter li {
     color: white;
+    padding-bottom: 0.5rem;
 }
+
 
 
 /* Footer/Socials */
