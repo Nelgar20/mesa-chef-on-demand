@@ -20,7 +20,8 @@ h2 {
   color: var(--secondary-color);
 }
 
-p {
+p, 
+label {
   color: white;
 }
 
@@ -79,8 +80,8 @@ p {
     color: white;
 }
 
-/* Footer/Socials */
 
+/* Footer/Socials */
 #socials div {
   display: flex;
   justify-content: space-evenly;
