@@ -78,7 +78,15 @@ label {
 }
 
 /* Menu section */
-#starter li {
+#starters h2,
+#mains h2,
+#desserts h2,
+#gallery h2 {
+  padding: 30px 0px;
+
+}
+
+#starters li {
     color: white;
     padding-bottom: 0.5rem;
 }
@@ -88,7 +96,7 @@ label {
     padding-bottom: 0.5rem;
 }
 
-#dessert li {
+#desserts li {
     color: white;
     padding-bottom: 0.5rem;
 }
