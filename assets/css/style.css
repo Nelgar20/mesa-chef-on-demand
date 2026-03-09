@@ -59,6 +59,10 @@ label {
   width: 50px;
 }
 
+#navbar .active {
+  color: white;
+}
+
 /* Header */
 #header h1 {
   color: var(--secondary-color);
