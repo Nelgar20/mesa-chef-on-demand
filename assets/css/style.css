@@ -89,6 +89,10 @@ label {
     padding-bottom: 0.5rem;
 }
 
+/* Confirmation section */
+#confirmation {
+  padding-top: 20%;
+}
 
 
 /* Footer/Socials */
