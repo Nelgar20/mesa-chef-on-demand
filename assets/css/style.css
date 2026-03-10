@@ -38,6 +38,10 @@ label {
   border: 3px solid var(--secondary-color);
 }
 
+.custom-button:hover {
+  color: white;
+}
+
 .text-lg {
   font-size: x-large;
 }
