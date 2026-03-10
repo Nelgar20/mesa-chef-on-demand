@@ -20,7 +20,7 @@ h2 {
   color: var(--secondary-color);
 }
 
-p, 
+p,
 label {
   color: white;
 }
@@ -39,7 +39,7 @@ label {
 }
 
 .text-lg {
-   font-size: x-large; 
+  font-size: x-large;
 }
 
 /* Navbar */
@@ -68,10 +68,6 @@ label {
   color: var(--secondary-color);
 }
 
-#header .bg {
-  background-color: var(--primary-color);
-}
-
 /* Services section */
 #services .card-body {
   background-color: var(--primary-color);
@@ -83,29 +79,27 @@ label {
 #desserts h2,
 #gallery h2 {
   padding: 30px 0px;
-
 }
 
 #starters li {
-    color: white;
-    padding-bottom: 0.5rem;
+  color: white;
+  padding-bottom: 0.5rem;
 }
 
 #mains li {
-    color: white;
-    padding-bottom: 0.5rem;
+  color: white;
+  padding-bottom: 0.5rem;
 }
 
 #desserts li {
-    color: white;
-    padding-bottom: 0.5rem;
+  color: white;
+  padding-bottom: 0.5rem;
 }
 
 /* Confirmation section */
 #confirmation {
   padding-top: 20%;
 }
-
 
 /* Footer/Socials */
 #socials div {
@@ -124,13 +118,42 @@ label {
 }
 
 /* Media queries */
+/* Medium device (768px and up) */
+@media screen and (min-width: 768px) {
+  #services .card-text {
+    min-height: 238px;
+  }
+}
 
 /* Large device (992px and up) */
 @media screen and (min-width: 992px) {
   #contact .middle {
     margin-top: 25%;
   }
+
   #contact .phone-pl {
     padding-left: 150px;
+  }
+
+  #services .card-text {
+    min-height: 166px;
+  }
+  
+  #header .img-fluid {
+    min-height: 363px;
+  }
+}
+
+/* Extra-large device (1200px and up) */
+@media screen and (min-width: 1200px) {
+  #services .card-text {
+    min-height: 142px;
+  }
+}
+
+/* Extra-extra-large device (1400px and up) */
+@media screen and (min-width: 1400px) {
+  #services .card-text {
+    min-height: 118px;
   }
 }
