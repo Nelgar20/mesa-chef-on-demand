@@ -118,10 +118,54 @@ label {
 }
 
 /* Media queries */
+/* Extra small device (<576px and up) */
+@media screen and (min-width: 320px) {
+  #starters .img-height,
+  #mains .img-height,
+  #desserts .img-height {
+    min-height: 296px;
+  }
+
+  #gallery .img-height {
+    min-height: 395px;
+  }
+}
+
+/* Smaller device (425px and up) */
+@media screen and (min-width: 425px) {
+  #starters .img-height,
+  #mains .img-height,
+  #desserts .img-height {
+    min-height: 450px;
+  }
+
+  #gallery .img-height {
+    min-height: 535px;
+  }
+}
+
+
+/* Small device (576px and up) */
+@media screen and (min-width: 576px) {
+  #starters .img-height,
+  #mains .img-height,
+  #desserts .img-height {
+    min-height: 516px;
+  }
+
+  #gallery .img-height {
+    min-height: 687px;
+  }
+}
+
 /* Medium device (768px and up) */
 @media screen and (min-width: 768px) {
   #services .card-text {
     min-height: 238px;
+  }
+
+  #gallery .img-height {
+    min-height: 927px;
   }
 }
 
@@ -155,5 +199,15 @@ label {
 @media screen and (min-width: 1400px) {
   #services .card-text {
     min-height: 118px;
+  }
+
+  #starters .img-height,
+  #mains .img-height,
+  #desserts .img-height {
+    min-height: 636px;
+  }
+
+  #gallery .img-height {
+    min-height: 687px;
   }
 }
