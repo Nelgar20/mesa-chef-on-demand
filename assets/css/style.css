@@ -72,6 +72,10 @@ label {
   color: var(--secondary-color);
 }
 
+#header {
+  padding-top:65px;
+}
+
 /* Services section */
 #services .card-body {
   background-color: var(--primary-color);
